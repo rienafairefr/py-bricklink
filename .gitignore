@@ -1,3 +1,6 @@
 *.iml
 *.pyc
 tests/
+*.egg-info
+\.idea/
+auth\.json

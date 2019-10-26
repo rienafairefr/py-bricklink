@@ -1,44 +1,58 @@
-'''
+"""
     bricklink.exceptions
     --------------------
 
     A module providing Bricklink exceptions
-'''
-
-class BricklinkInvalidResponseException(Exception): pass
+"""
 
 
-class BricklinkInvalidURIException(Exception): pass
+class InvalidResponseException(Exception):
+    pass
 
 
-class BricklinkInvalidRequestBodyException(Exception): pass
+class InvalidURIException(Exception):
+    pass
 
 
-class BricklinkParameterMissingOrInvalidException(Exception): pass
+class InvalidRequestBodyException(Exception):
+    pass
 
 
-class BricklinkBadOauthRequestException(Exception): pass
+class ParameterMissingOrInvalidException(Exception):
+    pass
 
 
-class BricklinkPermissionDeniedException(Exception): pass
+class BadOauthRequestException(Exception):
+    pass
 
 
-class BricklinkResourceNotFoundException(Exception): pass
+class PermissionDeniedException(Exception):
+    pass
 
 
-class BricklinkMethodNotAllowedException(Exception): pass
+class ResourceNotFoundException(Exception):
+    pass
 
 
-class BricklinkUnsupportedMediaTypeException(Exception): pass
+class MethodNotAllowedException(Exception):
+    pass
 
 
-class BricklinkResourceUpdateNotAllowedException(Exception): pass
+class UnsupportedMediaTypeException(Exception):
+    pass
 
 
-class BricklinkInternalServerErrorException(Exception): pass
+class ResourceUpdateNotAllowedException(Exception):
+    pass
 
 
-class BricklinkUnspecifiedException(Exception): pass
+class InternalServerErrorException(Exception):
+    pass
 
 
-class BricklinkInvalidParameterException(Exception): pass
+class UnspecifiedException(Exception):
+    pass
+
+
+class InvalidParameterException(Exception):
+    pass
